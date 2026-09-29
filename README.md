@@ -8,7 +8,7 @@
 Blackout Checker is a device that's been conceived for home safety. It is designed to detect any power out situations in a domestic environment, giving users a warning when a power failure or overload occurs, by providing an immediate alert through a red LED and a distinct beep. The device, besides trying to facilitate users in power restoring, also keeps track of blackouts activity thanks to its communication (via Wi-Fi connection) to a web server that handles the blackouts' data by inserting them into a secure database. Blackout Checker also offers an intuitive web application and interface, in which users can securely check for their blackout informations.
 
 ## About this project
-This is a project I originally developed for the Web 2.0 Application Development Laboratory (earning the maximum grade), as well as for the Web Systems & Databases exam (earning the maximum grade cum laude), as part of my bachelor's degree program.
+This is a project I originally developed for the Web 2.0 Application Development Laboratory (earning the maximum grade), as well as for the Web Systems & Databases exam (earning the maximum grade cum laude), as part of my Computer Engineering bachelor's degree program.
 
 I then refined it and repurposed it for the final week of the [CS50x course](https://cs50.harvard.edu/x/). CS50x is a openware course from Harvard University and taught by David J. Malan
 

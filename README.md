@@ -1,6 +1,18 @@
+<div align="center">
+  
 # Blackout Checker
+
+</div>
+
 #### Description:
 Blackout Checker is a device that's been conceived for home safety. It is designed to detect any power out situations in a domestic environment, giving users a warning when a power failure or overload occurs, by providing an immediate alert through a red LED and a distinct beep. The device, besides trying to facilitate users in power restoring, also keeps track of blackouts activity thanks to its communication (via Wi-Fi connection) to a web server that handles the blackouts' data by inserting them into a secure database. Blackout Checker also offers an intuitive web application and interface, in which users can securely check for their blackout informations.
+
+## About this project
+This is a project I originally developed for the Web 2.0 Application Development Laboratory (earning the maximum grade), as well as for the Web Systems & Databases exam (earning the maximum grade cum laude), as part of my bachelor's degree program.
+
+I then refined it and repurposed it for the final week of the [CS50x course](https://cs50.harvard.edu/x/). CS50x is a openware course from Harvard University and taught by David J. Malan
+
+Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, SQL, HTML, CSS, JavaScript and also a little of Scratch.
 
 ## Features
 - **Blackout Tracking**: The device keeps monitoring for power failure/overload events.
@@ -30,7 +42,7 @@ Blackout Checker is a device that's been conceived for home safety. It is design
 
 ### Installing
 #### Hardware
-![Circuit design to make the ESP32 work on its intended purposes](https://od.lk/s/OTNfMzUyMDc2Mjdf/Hardware%20Design.png)
+![Circuit design to make the ESP32 work on its intended purposes](https://raw.githubusercontent.com/darkvoid97/blackout-checker/refs/heads/main/Hardware%20Design.png)
 
 There's no better way to explain it: just install everything on the breadboard as shown in the image. (The image shows an Arduino UNO instead of an ESP32 because I couldn't find a decent enough pic of it while doing this design. Using the ESP32 is highly suggested. The circuit image should also be present in this project's folder, just in case you can't see it up here)
 
@@ -69,9 +81,6 @@ The project also has extra files for testing purposes. As it's not a primary fea
 ## System Design
 Both the Web Application and the ESP32 device communicate to the Database by sending requests to a REST API Web Service, developed in Java and working on Apache, thanks to Apache Tomcat v9.0. The aforementioned web service is in fact the **only** way to interface with the Database, as it's otherwise completely inaccessible from the outside (therefore, secure). Requests for the database are received from Jakarta Servlets, and then redirected by them to the Java Server Pages, which then extract the needed attributes in order to generate alerts to finally send to the user's client. Database itself is done with MySQL. The Web interface is developed in PHP, in order to easily make the HTML and CSS 'dynamic' for every user. The ESP32 microcontroller can be programmed using the Arduino IDE, with some extrenal help from specific libraries. This helps to ease the work if you're already familiar with the Arduino programming (which has the C language under the hood). The system has been designed prioritizing security, as it is in fact safe from several attacks such as SQL injection and similiar. The hardware part has instead been designed prioritizing simplicity, mostly since that part is mostly been executed in a more of simulated environment rather than a real world use case, but it's also designed just real enough that one can clearly see the possible real world applications of the entire technology.
 
-## What is CS50x?
-This is a project made for the final week of the CS50x course. CS50x is a openware course from Harvard University and taught by David J. Malan
+<br><hr>
 
-Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, SQL, HTML, CSS, JavaScript and also a little of Scratch.
-
-This is the link: https://cs50.harvard.edu/x/
+- ### [CS50x Problem Sets & Additional Practices solutions](https://github.com/darkvoid97/CS50x)

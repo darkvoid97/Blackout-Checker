@@ -1,0 +1,18 @@
+These are testing files.
+I've used PHPUnit to test the authentication system.
+For the framework version I've used, here are the useful links:
+	-> Download: https://phar.phpunit.de/phpunit-7.phar
+	-> Installation: https://phpunit.de/manual/6.5/en/installation.html.
+
+Once installed, refer to the files in the "[PHPUNIT]" folder.
+To begin testing:
+	-> Go to the command prompt.
+	-> Go to the path where "registertest.php" and "logintest.php" are.
+	-> Type "phpunit registertest.php" or "phpunit logintest.php".
+	-> It then will ask you to insert data that will be sent via POST request
+to "registrati.php" or "accedi.php" (in htdocs).
+	-> Once sent, the test unit will return either a minimal result (FAIL or OK) and the complete one.
+
+Regarding "testBlackout.php" (aka the other file in the "Tests" folder),
+testing it via command line turned out to be difficult, so I turned it in a Web interface.
+Just open this file in the browser and you'll be able to do the testings.

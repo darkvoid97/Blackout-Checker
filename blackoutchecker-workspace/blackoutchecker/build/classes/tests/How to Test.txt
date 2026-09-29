@@ -1,0 +1,25 @@
+These are testing files.
+I've used JUnit 4.13 to test the authentication system.
+You need to install the framework on Eclipse to make it work:
+		-> check for the .jar file of junit in the "project/other_libraries" folder
+		-> On the Eclipse IDE right-click on the "blackoutchecker" project folder
+	       	and select "Build Path"->"Configure build path".
+		-> click on "add external jars" and select the .jar file mentioned before.
+
+Once the Framework has been installed, check the "blackoutchecker/src/tests" folder.
+In order to start the test cases you have to:
+	-> Right-click on "TestLogin.java" or "TestRegister.java".
+	-> Select "Run as..."->"JUnit Test" to start testing.
+	-> Console will ask for some inputs, and will output a minimal value (FAIL or OK)
+	and will print the "alert" value produced.
+
+There are 2 classes that test for Database connection and selecting of the Database informations
+related to Blackouts ad Users.
+
+N.B.: Server needs to be active for these 2 test files to work!
+
+To start said files ("TestUtenti.java" and "TestBlackouts.java"):
+	-> Right-click on them.
+	-> Select "Run as..."->"Java Application".
+	-> Console will output every value in the preselected table,
+	depending on the file you started testing.

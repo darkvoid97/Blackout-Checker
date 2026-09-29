@@ -1,5 +1,4 @@
 # Blackout Checker
-#### Video Demo:  https://youtu.be/SJDplR7F4FY
 #### Description:
 Blackout Checker is a device that's been conceived for home safety. It is designed to detect any power out situations in a domestic environment, giving users a warning when a power failure or overload occurs, by providing an immediate alert through a red LED and a distinct beep. The device, besides trying to facilitate users in power restoring, also keeps track of blackouts activity thanks to its communication (via Wi-Fi connection) to a web server that handles the blackouts' data by inserting them into a secure database. Blackout Checker also offers an intuitive web application and interface, in which users can securely check for their blackout informations.
 
@@ -76,9 +75,3 @@ This is a project made for the final week of the CS50x course. CS50x is a openwa
 Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, SQL, HTML, CSS, JavaScript and also a little of Scratch.
 
 This is the link: https://cs50.harvard.edu/x/
-
-## Final words
-
-Well, this has been my CS50x journey.
-
-Ad maiora!

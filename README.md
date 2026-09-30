@@ -10,9 +10,7 @@ Blackout Checker is a device that's been conceived for home safety. It is design
 ## About this project
 This is a project I originally developed for the Web 2.0 Application Development Laboratory (earning the maximum grade), as well as for the Web Systems & Databases exam (earning the maximum grade cum laude), as part of my Computer Engineering bachelor's degree program.
 
-I then refined it and repurposed it for the final week of the [CS50x course](https://cs50.harvard.edu/x/). CS50x is a openware course from Harvard University and taught by David J. Malan
-
-Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, SQL, HTML, CSS, JavaScript and also a little of Scratch.
+I then refined it and repurposed it for the final week of the [CS50x course](https://cs50.harvard.edu/x/). CS50x is a openware course from Harvard University and taught by David J. Malan. It serves as an introduction to the intellectual enterprises of computer science and the art of programming. The course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, SQL, HTML, CSS, JavaScript and also a little of Scratch.
 
 ## Features
 - **Blackout Tracking**: The device keeps monitoring for power failure/overload events.
